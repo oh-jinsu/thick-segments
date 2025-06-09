@@ -1,0 +1,26 @@
+#root {
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#controls {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.row + .row {
+  margin-top: 8px;
+}
+
+.row label {
+  font-size: 14px;
+}
